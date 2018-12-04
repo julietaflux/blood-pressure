@@ -6,7 +6,6 @@ export default {
   props: ['title'],
   methods: {
       refresh: function(labels, highPressure, lowPressure) {
-            let self = this;
             this.renderChart({
                 labels: labels,
                 datasets: [
